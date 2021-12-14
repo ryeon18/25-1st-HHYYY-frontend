@@ -39,17 +39,17 @@
    - **헤더 구현**
      - mouse hover 시, navigation bar 툴팁 창 및 user page (로그인, 회원가입 등) 툴팁 창이 뜨도록 조건부렌더링을 통해 구현
      - Nav 돋보기 아이콘 클릭 시 Search Modal 구현
-     - ![ezgif com-gif-maker222](https://user-images.githubusercontent.com/62207127/145955106-9ea66c5c-6bef-4a18-beab-6479101a2eaa.gif)
+     - ![헤더 구현 영상](https://user-images.githubusercontent.com/62207127/145955106-9ea66c5c-6bef-4a18-beab-6479101a2eaa.gif)
    - **Search Modal 구현**
       - 사용자가 입력한 검색어를 검색결과페이지에 쿼리스트링을 이용하여 url 주소에 협의된 데이터를 파라미터로 전달
-      - ![ezgif com-gif-maker33333](https://user-images.githubusercontent.com/62207127/145956039-94fe0693-e5ea-473a-b5c1-92dfd11f0b3d.gif)
+      - ![검색창 구현 영상](https://user-images.githubusercontent.com/62207127/145956039-94fe0693-e5ea-473a-b5c1-92dfd11f0b3d.gif)
    - **장바구니 구현**
       - 회원과 비회원을 토큰값으로 구분하여, 조건부렌더링으로 회원/비회원 화면 적용.
       - 회원인 경우 장바구니에 담은 물건을 수량 그대로 옮겨와 장바구니 페이지 결과에 보이게 함
       - 맵함수를 이용하여 상품추가 구현
-      - ![ezgif com-gif-maker111111](https://user-images.githubusercontent.com/62207127/145956464-34494361-de51-432e-a129-c8748fa30bf3.gif)
+      - ![장바구니 구현 영상](https://user-images.githubusercontent.com/62207127/145956464-34494361-de51-432e-a129-c8748fa30bf3.gif)
    - **로그인 구현**
       - 로그인 유효성 검사 (아이디 @과 . 포함, 비밀번호 8자 이상 및 특수문자 포함, 조건에 충족하지 않으면 버튼 비활성화)
       - 로그인 버튼 클릭시 유효성 검사 후 메인으로 이동
       - JWT와 로컬스토리지를 사용한 로그인
-      - ![ezgif com-gif-maker333](https://user-images.githubusercontent.com/62207127/145955620-e9cb5127-b906-4e5f-bbc5-71af81417c30.gif)
+      - ![로그인 구현 영상](https://user-images.githubusercontent.com/62207127/145955620-e9cb5127-b906-4e5f-bbc5-71af81417c30.gif)
